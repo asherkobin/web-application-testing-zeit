@@ -1,3 +1,5 @@
+import React from "react";
+
 export function onBall(atBatInfo) {
   if (atBatInfo.balls === 3) {
     return { balls: 0, strikes: 0 } // walk has occured
